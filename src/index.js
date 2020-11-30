@@ -13,7 +13,6 @@ const jss = create({
   insertionPoint: document.getElementById('jss-insertion-point'),
 });
 
-
 ReactDOM.render(
     <JssProvider jss={jss} generateClassName={generateClassName}>
     <ThemeProvider>

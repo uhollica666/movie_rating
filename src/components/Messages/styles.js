@@ -5,9 +5,9 @@ import warningIcon from "../../statics/warning-icon.svg";
 import { makeStyles } from "@material-ui/core/styles";
 import { darken } from "@material-ui/core/styles/colorManipulator";
 
-const successColor = "#60DAA0";
-const warningColor = "#FFB84E";
-const infoColor = "#CAD8DF";
+const successColor = "#71d25c";
+const warningColor = "#ffd962";
+const infoColor = "#f0f1f2";
 const errorColor = "#FE6E76";
 
 export const useStyles = makeStyles(

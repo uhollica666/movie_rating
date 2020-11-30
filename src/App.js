@@ -8,7 +8,8 @@ import MovieCard from "./components/MovieCard";
 import MovieApi from "./config";
 
 
-const api_key = process.env.REACT_APP_OPENDB_API_KEY
+const api_key = "c4d90f30"
+// console.log(api_key)
 const useStyles = makeStyles(
   theme => ({
     container: {
