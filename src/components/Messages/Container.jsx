@@ -8,10 +8,4 @@ const Container = ({ children }) => {
     !!children.length && <div className={classes.container}>{children}</div>
   );
 };
-
-
-
-
-
-
 export default Container;
